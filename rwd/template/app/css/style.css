@@ -1,0 +1,72 @@
+@charset "UTF=8";
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria.woff2') format('woff2'),
+        url('../fonts/Geometria.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Bold.woff2') format('woff2'),
+        url('../fonts/Geometria-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Medium.woff2') format('woff2'),
+        url('../fonts/Feometria-Medium.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MullerBold';  
+    src: url('../fonts/MullerBold.woff2') format('woff2'),
+        url('../fonts/MullerBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerRegular';
+    src: url('../fonts/MullerRegular.woff2') format('woff2'),
+        url('../fonts/MullerRegular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    position: relative;
+}
+body {
+    min-width: 320px;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Geometria', 'MullerBold', 'MullerRegular', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+.contacts__separator {
+    color: #cb7b5e;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+}
