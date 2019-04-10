@@ -72,7 +72,19 @@ body {
 }
 .header__wrap {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+}
+.header__top,
+.header__bottom {
+    display: flex;
+    flex-grow: 1;
+}
+.header__navigation {
+    flex-grow: 1;
+    width: 100%;
+}
+.header__contacts {
+    display: flex;
 }
 .header__logo {
     width: 223px;
@@ -103,10 +115,6 @@ body {
 }
 .header__wrap {
     display: flex;
-    align-items: center;
-}
-.header__navigation {
-    flex-grow: 0.66;
 }
 .navigation__item {
     flex-grow: 1;
@@ -115,4 +123,14 @@ body {
     list-style-type: none;
     display: flex;
     padding: 0;
+}
+.navigation-sublist {
+    display: none;
+}
+.goods-list__wrap {
+    display: flex;
+}
+.services__wrap {
+    flex-wrap: wrap;
+    display: flex;
 }
