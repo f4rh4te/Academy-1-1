@@ -134,3 +134,20 @@ body {
     flex-wrap: wrap;
     display: flex;
 }
+.index-banner__wrap {
+    margin-top: 70px;
+}
+.banner-img {
+    width: 1921px;
+    height: 802px;
+    z-index: 1;
+    position: absolute;
+}
+.banner-fader {
+    width: 1972px;
+    height: 802px;
+    background-color: #000000;
+    background-color: #00adda;
+    opacity: 0.44;
+    z-index: 2;
+}
